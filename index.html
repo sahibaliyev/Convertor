@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="top_line">
+            <img class="logo" src="logo.png" alt="logo">
+            <ul>
+                <li>БАНК</li>
+                <li>БИЗНЕС</li>
+                <li>ИНВЕСТИЦИИ</li>
+                <li>СТРАХОВАНИЕ</li>
+                <li>МОБАЙЛ</li>
+                <li>ПУТЕШЕСТВИЯ</li>
+                <li>РАЗВЛЕЧЕНИЯ</li>
+            </ul>
+            <button class="button">ВОЙТИ</button>
+        </div>
+        
+        <div><h1>Конвертер валют онлайн</h1></div>
+
+        <div id="content">
+            <div class="now">
+                <p>У меня есть </p>
+                <div class="currency">
+                    <div class="left rubl1 active" id="left_corners">RUB</div>
+                    <div class="left usd1">USD</div>
+                    <div class="left eur1">EUR</div>
+                    <div class="left gbp1" id="right_corners">GBP</div>
+                </div>
+                <div class="input_box">
+                    <input class="input">
+                    <p></p>
+                </div>
+            </div>
+
+            <div class="then">
+                <p>Хочу приобрести</p>
+                <div class="currency">
+                    <div class="right rubl2" id="left_corners">RUB</div>
+                    <div class="right usd2 active">USD</div>
+                    <div class="right eur2">EUR</div>
+                    <div class="right gbp2" id="right_corners">GBP</div>
+                </div>
+                <div class="output_box">
+                    <input class="output" type="number" readonly>
+                    <p></p>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <script type="text/javascript" src="script.js"></script>
+</body>
+</html>
